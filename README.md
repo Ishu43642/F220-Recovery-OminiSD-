@@ -32,7 +32,7 @@ git clone https://github.com/Ishu43642/F220-Recovery-OminiSD-.git
 cd F220-Recovery-OminiSD-
 ```
 ```console
-chmod +x qdl && chmod +x f220b.sh && chmod +x delete.sh && chmod +x disable sh
+chmod +x qdl && chmod +x f220b.sh && chmod +x delete.sh && chmod +x disable.sh
 ```
 
 # installation (only for adb option)Termux-Adb :-
