@@ -50,6 +50,8 @@ case $flasher in
 "3")
     echo -e "\033[0;32m Enabling Adb & Root ! \033[0m";
     ./qdl --debug --storage emmc --include /adbroot /recovery/prog_emmc_firehose_8909_ddr.mbn /adbroot/rawprogram0.xml /adbroot/patch0.xml
+
+    source ./f220b.sh
       ;;
 "7")
     echo -e "\033[0;32m Deleting Update stored Files! \033[0m";
