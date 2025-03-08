@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Firmware Created by Ultimate Multi Tool - QcFire-->
+<data>
+  <program SECTOR_SIZE_IN_BYTES="512" file_sector_offset="0" filename="boot_0.img" label="boot" num_partition_sectors="65536" physical_partition_number="0" sparse="false" start_sector="396384" filesize="33554432" encrypted="false"/>
+  <program SECTOR_SIZE_IN_BYTES="512" file_sector_offset="0" filename="recovery_0.img" label="recovery" num_partition_sectors="65536" physical_partition_number="0" sparse="false" start_sector="5373952" filesize="33554432" encrypted="false"/>
+</data>
