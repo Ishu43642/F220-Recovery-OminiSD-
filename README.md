@@ -26,7 +26,7 @@ pkg install git
 pkg install libxml2
 ```
 ```console
-https://github.com/Ishu43642/F220-Recovery-OminiSD-.git
+git clone https://github.com/Ishu43642/F220-Recovery-OminiSD-.git
 ```
 ```console
 cd F220-Recovery-OminiSD-
