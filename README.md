@@ -1,4 +1,4 @@
-<img align="right" src="f220b.jpg" width="350" alt="QDL Flasher">
+<img align="right" src="f220b.jpg" width="350" alt="f220b recovery ominisd">
 
 
 ## F220-Recovery-OminiSD-
