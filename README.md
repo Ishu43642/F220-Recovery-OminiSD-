@@ -35,7 +35,7 @@ cd F220-Recovery-OminiSD-
 chmod +x qdl && chmod +x f220b.sh && chmod +x delete.sh && chmod +x disable sh
 ```
 
-# installation (only for fastboot option)Termux-Adb :-
+# installation (only for adb option)Termux-Adb :-
 [Termux-Adb Fastboot](https://github.com/nohajc/termux-adb) 
 
 ```credit :- Termux-Adb``` [nohajc](https://github.com/nohajc)
