@@ -26,7 +26,7 @@ pkg install git
 pkg install libxml2
 ```
 ```console
-termux-setuo-storage
+termux-setup-storage
 ```
 ```console
 git clone https://github.com/Ishu43642/F220-Recovery-OminiSD-.git
