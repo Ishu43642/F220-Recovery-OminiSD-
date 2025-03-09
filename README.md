@@ -26,6 +26,9 @@ pkg install git
 pkg install libxml2
 ```
 ```console
+termux-setuo-storage
+```
+```console
 git clone https://github.com/Ishu43642/F220-Recovery-OminiSD-.git
 ```
 ```console
@@ -55,4 +58,8 @@ bash installadb.sh
 
 2. Twrp Philz recovery work in all version firmware you don't need to downgrade if you want to install recovery only
 
-3. if you want to downgrade without pc use [Termux-QDL Flasher Tool](https://github.com/Ishu43642/QDL-Flasher)
+3. Create New Folder in internal storage and rename it ```qdl-flash```
+
+4. Download This File - [F220b Recovery ominisd](https://mega.nz/file/IH4DVbgS#oBIvzIWCNPMwtRoScUed6HLp3-douTxpt1b4IicY2Xk) Then Extract it under ```qdl-flash``` folder
+
+5. if you want to downgrade without pc use [Termux-QDL Flasher Tool](https://github.com/Ishu43642/QDL-Flasher)
