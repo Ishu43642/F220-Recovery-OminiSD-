@@ -12,8 +12,6 @@ echo -e "\033[0;33m
   3. Enable Adb & Root
   4. Check adb Devices
   5. Check EDL Device
-  6. Disable Auto Update
-  7. Delete Update
 ------------------------------------------
 (Press Any key to Exit or input your choice.)
 \033[0m";
@@ -53,18 +51,6 @@ case $flasher in
 
     source ./f220b.sh
       ;;
-"7")
-    echo -e "\033[0;32m launching tool! \033[0m";
-    ./delete.sh
-
-    source ./f220b.sh
-  ;;
-"6")
-    echo -e "\033[0;32m launching tool ! \033[0m";
-    ./disable.sh
-
-    source ./f220b.sh
-  ;;
   *)
     echo -e '\033[0;31m Script execution aborted. \033[0m';
     exit 1
