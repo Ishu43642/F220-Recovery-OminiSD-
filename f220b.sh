@@ -61,15 +61,7 @@ case $flasher in
   ;;
 "6")
     echo -e "\033[0;32m Disabling auto Update ! \033[0m";
-    termux-adb shell
-mount -o remount,rw /system
-echo '127.0.0.1 fota.mst.kai.jiophone.net' >> /system/etc/hosts
-echo '127.0.0.1 jioads.akamaized.net' >> /system/etc/hosts
-echo '127.0.0.1 ssp.kaiads.com' >> /system/etc/hosts
-sync
-mount -o remount,ro /system
-exit
-termux-adb reboot
+    termux-adb shell && mount -o remount,rw /system && echo '127.0.0.1 fota.mst.kai.jiophone.net' >> /system/etc/hosts && echo '127.0.0.1 jioads.akamaized.net' >> /system/etc/hosts && echo '127.0.0.1 ssp.kaiads.com' >> /system/etc/hosts && sync && mount -o remount,ro /system && exit && termux-adb reboot
 
     source ./f220b.sh
   ;;
