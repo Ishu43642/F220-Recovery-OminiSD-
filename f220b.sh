@@ -54,13 +54,13 @@ case $flasher in
     source ./f220b.sh
       ;;
 "7")
-    echo -e "\033[0;32m Deleting Update stored Files! \033[0m";
+    echo -e "\033[0;32m launching tool! \033[0m";
     ./delete.sh
 
     source ./f220b.sh
   ;;
 "6")
-    echo -e "\033[0;32m Disabling auto Update ! \033[0m";
+    echo -e "\033[0;32m launching tool ! \033[0m";
     ./disable.sh
 
     source ./f220b.sh
