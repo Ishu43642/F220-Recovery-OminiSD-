@@ -65,29 +65,55 @@ bash installadb.sh
 5. if you want to downgrade without pc use [Termux-QDL Flasher Tool](https://github.com/Ishu43642/QDL-Flasher)
 
 
-6. Disable ota update 
-
-1. ```console
+6. Disable ota update using termux adb in stock rom 
+```console
 termux-adb shell
 ```
-2. ```console
+```console
 mount -o remount,rw /system
 ```
-3. echo '127.0.0.1 fota.mst.kai.jiophone.net' >> /system/etc/hosts
-4. echo '127.0.0.1 jioads.akamaized.net' >> /system/etc/hosts
-5. echo '127.0.0.1 ssp.kaiads.com' >> /system/etc/hosts
-6. sync
-7. mount -o remount,ro /system
-8. exit
-9. termux-adb reboot
-
+```console
+echo '127.0.0.1 fota.mst.kai.jiophone.net' >> /system/etc/hosts
+```
+```console
+echo '127.0.0.1 jioads.akamaized.net' >> /system/etc/hosts
+```
+```console
+echo '127.0.0.1 ssp.kaiads.com' >> /system/etc/hosts
+```
+```console
+sync
+```
+```console
+mount -o remount,ro /system
+```
+```console
+exit
+```
+```console
+termux-adb reboot
+```
 
 7. Delete update package 
 
-1. termux-adb shell
-2. cd /data/fota/downloaded
-3. rm update.zip
-4. cd /data/fota
-5. rmdir downloaded
-6. exit
-7. termux-adb reboot
+```console
+termux-adb shell
+```
+```console
+cd /data/fota/downloaded
+```
+```console
+rm update.zip
+```
+```console
+cd /data/fota
+```
+```console
+rmdir downloaded
+```
+```console
+exit
+```
+```console
+termux-adb reboot
+```
