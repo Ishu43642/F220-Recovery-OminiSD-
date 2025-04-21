@@ -17,7 +17,7 @@ Subscribe My YouTube channel
 
 ## installation :- 
 
-```Install``` [termux](https://f-droid.org/repo/com.termux_118.apk) & [Termux-api](https://f-droid.org/repo/com.termux.api_51.apk) ```apk```
+```Install``` [termux](https://f-droid.org/repo/com.termux_1021.apk) & [termux api](https://f-droid.org/repo/com.termux.api_1000.apk) ```apk```
 ```console
 yes | pkg update && upgrade
 ```
