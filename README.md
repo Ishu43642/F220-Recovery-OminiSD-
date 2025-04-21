@@ -7,7 +7,7 @@ Install twrp Philz recovery & enable ominisd on  jio f220b Phone Using Termux ``
 
 QDL Tool Credit:- [Gautam Great](https://github.com/GautamGreat)
 
-For Updating the tool Credit :- [Repair A2Z](http://www.youtube.com/c/repaira2z)
+For Updating the tool Credit :- [Repair A2Z](https://youtube.com/@repaira2z)
 
 [QDL-Tree](https://github.com/bmx666/qdl/tree/sparse)
 
