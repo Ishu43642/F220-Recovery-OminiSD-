@@ -62,7 +62,7 @@ bash installadb.sh
 
 3. Create New Folder in internal storage and rename it ```qdl-flash```
 
-4. Download This File - [F220b Recovery ominisd](https://mega.nz/file/IH4DVbgS#oBIvzIWCNPMwtRoScUed6HLp3-douTxpt1b4IicY2Xk) Then Extract it under ```qdl-flash``` folder
+4. Download This File - [F220b Recovery ominisd](https://mega.nz/file/MCAl1ZRJ#OcZUu70Gk_9FavgVvWtA0oLhRUQ64xe8vcPCjqhWqc8) Then Extract it under ```qdl-flash``` folder
 
 5. if you want to downgrade without pc use [Termux-QDL Flasher Tool](https://github.com/Ishu43642/QDL-Flasher)
 
