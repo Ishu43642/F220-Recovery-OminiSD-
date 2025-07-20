@@ -34,20 +34,20 @@ case $flasher in
   ;;
   "1")
     echo -e "\033[0;32m Flashing Philz Twrp Recovery ! \033[0m";
-    ./qdl --debug --storage emmc --include /storage/emulated/0/qdl-flash/recovery /storage/emulated/0/qdl-flash/recovery/prog_emmc_firehose_8909_ddr.mbn /storage/emulated/0/qdl-flash/recovery/rawprogram0.xml /storage/emulated/0/qdl-flash/recovery/patch0.xml
+    sudo ./qdl --debug --storage emmc --include /storage/emulated/0/qdl-flash/recovery /storage/emulated/0/qdl-flash/recovery/prog_emmc_firehose_8909_ddr.mbn /storage/emulated/0/qdl-flash/recovery/rawprogram0.xml /storage/emulated/0/qdl-flash/recovery/patch0.xml
 
     source ./f220b.sh
   ;;
   "2")
     echo -e "\033[0;32m Flashing ominisd ! \033[0m";
-    ./qdl --debug --storage emmc --include /storage/emulated/0/qdl-flash/ominisd /storage/emulated/0/qdl-flash/ominisd/prog_emmc_firehose_8909_ddr.mbn /storage/emulated/0/qdl-flash/ominisd/rawprogram_unsparse.xml
+    sudo ./qdl --debug --storage emmc --include /storage/emulated/0/qdl-flash/ominisd /storage/emulated/0/qdl-flash/ominisd/prog_emmc_firehose_8909_ddr.mbn /storage/emulated/0/qdl-flash/ominisd/rawprogram_unsparse.xml
 
     source ./f220b.sh
 
     ;;
 "3")
     echo -e "\033[0;32m Enabling Adb & Root ! \033[0m";
-    ./qdl --debug --storage emmc --include /storage/emulated/0/qdl-flash/adbroot /storage/emulated/0/qdl-flash/adbroot/prog_emmc_firehose_8909_ddr.mbn /storage/emulated/0/qdl-flash/adbroot/rawprogram0.xml /storage/emulated/0/qdl-flash/adbroot/patch0.xml
+   sudo ./qdl --debug --storage emmc --include /storage/emulated/0/qdl-flash/adbroot /storage/emulated/0/qdl-flash/adbroot/prog_emmc_firehose_8909_ddr.mbn /storage/emulated/0/qdl-flash/adbroot/rawprogram0.xml /storage/emulated/0/qdl-flash/adbroot/patch0.xml
 
     source ./f220b.sh
       ;;
