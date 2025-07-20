@@ -8,7 +8,7 @@ echo -e "\033[0;33m
         What do you want to do?
 -----------------------------------------
   1. Flash Recovery 
-  2. Flash OminiSD 2019 Firmware
+  2. Flash OminiSD(only in 2019.Firmware)
   3. Enable Adb & Root
   4. Check adb Devices
   5. Check EDL Device
