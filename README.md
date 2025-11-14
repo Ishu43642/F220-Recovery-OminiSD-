@@ -3,7 +3,7 @@
 
 ## F220-Recovery-OminiSD-
 Install twrp Philz recovery & enable ominisd on  jio f220b Phone Using Termux ```Without PC```
-(This Tool Run Only in ```arm64``` architecture Termux Supported mobile) ```Root Required```
+(This Tool Run in android ```arm,arm64,x86,x86_64``` architecture Termux Supported mobile) ```Root Required```
 
 
 Subscribe My YouTube channel 
