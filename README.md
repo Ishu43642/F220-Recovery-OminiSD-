@@ -13,19 +13,19 @@ Subscribe My YouTube channel
 
 ```Install``` [termux](https://f-droid.org/repo/com.termux_1022.apk) & [termux api](https://f-droid.org/repo/com.termux.api_1001.apk) ```apk```
 ```console
-yes | pkg update && upgrade
+pkg update && upgrade -y
 ```
 ```console
-pkg install termux-api
+pkg install -y termux-api
 ```
 ```console
-pkg install git
+pkg install -y git
 ```
 ```console
-pkg install libxml2
+pkg install -y libxml2
 ```
 ```console
-pkg install sudo
+pkg install -y sudo
 ```
 ```console
 termux-setup-storage
