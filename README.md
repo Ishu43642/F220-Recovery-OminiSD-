@@ -123,4 +123,3 @@ termux-adb reboot
 # Credit :-
 1. nohajc - for [Termux-Adb Fastboot](https://github.com/nohajc/termux-adb)
 
-2. [Mahesh Verma](https://github.com/MaheshTechnicals) - For Ui Enhancement in my tool
